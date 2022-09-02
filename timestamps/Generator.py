@@ -9,5 +9,4 @@ def Recognizer(i):
             continue
         for j in i['result']:
             result_array.append(j)
-
     return result_array
