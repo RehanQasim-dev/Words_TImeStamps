@@ -13,8 +13,7 @@ sleep(3)
 # no_of_lines=[9, 11, 8, 9, 9, 11, 8]
 # lesson14
 # no_of_lines=[10, 12, 8, 9, 13, 7, 8, 12, 11]
-
-timmings=[]
+no_of_lines=[10]
 for i in range(len(no_of_lines)):
     # bucket=[]
     for j in range(no_of_lines[i]-1):

@@ -3,7 +3,7 @@ from itertools import chain
 import results_writer as rw
 write_handler=open(os.path.join(sys.path[0],f'../results/Results.txt'),'w+',encoding='cp437',errors='ignore')
 write_handler.write('[')
-for i in range(2,7):
+for i in range(3,43):
     (words,timestamps,line_words_count)=rw.mid_results_writer(i)
     word_index=0
     iterations=0
